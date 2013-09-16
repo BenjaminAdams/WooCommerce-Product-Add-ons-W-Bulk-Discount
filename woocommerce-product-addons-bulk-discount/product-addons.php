@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WooCommerce Product Add-ons /w Bulk Discount
-Plugin URI: 
+Plugin URI: https://github.com/BenjaminAdams/WooCommerce-Product-Add-ons-W-Bulk-Discount
 Description: WooCommerce Product Add-ons lets you add extra options to products which the user can select. Add-ons can be checkboxes, a select box, or custom input. Each option can optionally be given a price which is added to the cost of the product.  Also adds a bulk discount when you order one or more of that add-on
 Version: 2.3.0
 Author: Benjamin Adams
@@ -14,13 +14,13 @@ Tested up to: 3.2
 /**
  * Required functions
  */
-if ( ! function_exists( 'woothemes_queue_update' ) )
-	require_once( 'woo-includes/woo-functions.php' );
+//if ( ! function_exists( 'woothemes_queue_update' ) )
+	//require_once( 'woo-includes/woo-functions.php' );
 
 /**
  * Plugin updates
  */
-woothemes_queue_update( plugin_basename( __FILE__ ), '147d0077e591e16db9d0d67daeb8c484', '18618' );
+//woothemes_queue_update( plugin_basename( __FILE__ ), '147d0077e591e16db9d0d67daeb8c484', '18618' );
 
 if ( is_woocommerce_active() ) {
 
